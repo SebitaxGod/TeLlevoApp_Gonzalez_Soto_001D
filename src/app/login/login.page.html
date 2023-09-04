@@ -1,0 +1,50 @@
+<br>
+<br>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+  </style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+  </style>
+<ion-content>
+  <div class="header-content">
+    <ion-icon name="car" class="car-icon"></ion-icon> <!-- Icono de auto -->
+    <br>
+    <p style="font-family: 'Open Sans', sans-serif;">TeLlevoApp</p> <!-- Texto "TeLlevoApp" -->
+    
+    
+    
+    
+  </div>
+  <div class="enunciado">
+    <strong style="font-family: 'Open Sans', sans-serif;">Ingreso</strong> 
+    <p style="font-family: 'Open Sans', sans-serif; font-size: small; color: #A7A7A7;">Hola, encantado de verte devuelta</p>
+  </div>
+  <div class="container">
+    <form (ngSubmit)="login()" class="login-form">
+      <ion-item>
+        <ion-label position="stacked" style="font-family: 'Open Sans', sans-serif; color: #FF9696;" >Correo Electrónico</ion-label>
+        <ion-input type="email" [(ngModel)]="email" name="email" required></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+        <ion-label position="stacked" style="font-family: 'Open Sans', sans-serif; color:#FF9696">Contraseña</ion-label>
+        <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+      </ion-item>
+  
+      <!-- Agrega margen superior entre los elementos del formulario -->
+      <br>
+  
+      <ion-button expand="full" type="submit" color="danger">Iniciar Sesión</ion-button>
+
+    </form>
+    <br>
+    <div class="enunciado">
+      <a href="/olvido" style="padding-left: 70px;font-family: 'Open Sans', sans-serif; font-size: small; color: #A7A7A7;">¿Olvido?</a>
+      <hr>
+      <a href="/crear" style="padding-left: 57px;font-family: 'Open Sans', sans-serif; font-size: small; color: #A52A2A;">Crear cuenta</a>
+    </div>
+    
+  </div>
+  
+</ion-content>

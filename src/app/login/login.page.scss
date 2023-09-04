@@ -1,0 +1,41 @@
+ion-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Color blanco con opacidad 80% */
+  }
+ion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+  }
+  
+  /* Estilo para centrar el icono y el texto en la barra de navegación */
+  .header-content {
+    text-align: center;
+  }
+  
+  .car-icon {
+    font-size: 36px; /* Ajusta el tamaño del icono según sea necesario */
+  }
+  
+  /* Estilo para el formulario */
+  .input-wrapper {
+    width: 80%; /* Ajusta el ancho del formulario según sea necesario */
+    text-align: center; /* Centra el contenido del formulario horizontalmente */
+    margin: 100px;
+  }
+  
+  /* Estilo para agregar margen superior entre los elementos del formulario */
+  .form-item {
+    margin-top: 10px; /* Ajusta el margen superior entre los elementos del formulario según sea necesario */
+  }
+
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.enunciado{
+    padding-left :50px;
+}
+
+

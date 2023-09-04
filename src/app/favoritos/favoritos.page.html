@@ -1,0 +1,36 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+  </style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+  </style>
+
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-icon name="car" class="car-icon" style="padding-left: 100px;"></ion-icon> <!-- Icono de auto -->
+    <br>
+    <p style="font-family: 'Open Sans', sans-serif; padding-left: 50px;">Choferes Favoritos </p> <!-- Texto "TeLlevoApp" -->
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>     
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let chofer of choferesFavoritos">
+      <ion-label>
+        <h2>{{ chofer.nombre }}</h2>
+        <p>Total de Viajes: {{ chofer.totalViajes }}</p>
+        <ion-list>
+          <ion-item *ngFor="let viaje of chofer.viajes">
+            <p>{{ viaje.origen }} - {{ viaje.destino }}</p>
+            <br>
+            <p> -> Precio: {{ viaje.precio }}</p>
+          </ion-item>
+        </ion-list>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

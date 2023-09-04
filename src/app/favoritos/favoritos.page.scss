@@ -1,0 +1,117 @@
+ion-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Color blanco con opacidad 80% */
+  }
+ion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+  }
+  
+  /* Estilo para centrar el icono y el texto en la barra de navegación */
+  .header-content {
+    text-align: center;
+    padding-right: 60px;
+  }
+  
+  .car-icon {
+    font-size: 36px; /* Ajusta el tamaño del icono según sea necesario */
+  }
+  
+  /* Estilo para el formulario */
+  .input-wrapper {
+    width: 80%; /* Ajusta el ancho del formulario según sea necesario */
+    text-align: center; /* Centra el contenido del formulario horizontalmente */
+    margin: 100px;
+  }
+  
+  /* Estilo para agregar margen superior entre los elementos del formulario */
+  .form-item {
+    margin-top: 10px; /* Ajusta el margen superior entre los elementos del formulario según sea necesario */
+  }
+
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.enunciado{
+    padding-left :50px;
+}
+
+.body-bg {
+    background: linear-gradient(-150deg, rgb(79, 181, 84), rgb(35, 39, 35));
+
+}
+
+nav {
+    background: linear-gradient(-150deg, rgb(79, 181, 84), rgb(35, 39, 35));
+
+}
+
+#RS {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.bor2 {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #3882f188;
+}
+
+.bor3 {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #6dc15a69;
+}
+
+.bor1 {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #e2e26688;
+}
+
+.carousel-img-px {
+    width: 600px;
+    height: 500px;
+
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+    /* Ancho del scrollbar*/
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(110, 103, 103);
+    /* Color de la barra */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 121, 121);
+    /* color del scrollbarr */
+    border-radius: 30px;
+    /* le damos las puntas redondas*/
+    border: 3px solid rgb(75, 64, 64);
+    /* le damos el fondo del scrollbar */
+}
+
+
+.Buscar {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.btn {
+    width: 70px;
+    height: 40px;
+    background: rgb(93, 89, 89);
+    border-radius: 10px;
+    border: solid 2px rgb(73, 72, 72);
+}
+
+
+
+
+
+
